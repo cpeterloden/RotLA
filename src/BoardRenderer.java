@@ -66,22 +66,22 @@ public class BoardRenderer {
         // brawler
         Adventurer brawler = new Brawler();
         brawler.currentRoom = getRoomByID("0-1-1");
-        brawler.type = "B";
+        brawler.type = "Brawler";
         adventurers.add(brawler);
         // sneaker
         Adventurer sneaker = new Sneaker();
         sneaker.currentRoom = getRoomByID("0-1-1");
-        sneaker.type = "S";
+        sneaker.type = "Sneaker";
         adventurers.add(sneaker);
         // runner
         Adventurer runner = new Runner();
         runner.currentRoom = getRoomByID("0-1-1");
-        runner.type = "R";
+        runner.type = "Runner";
         adventurers.add(runner);
         // thief
         Adventurer thief = new Thief();
         thief.currentRoom = getRoomByID("0-1-1");
-        thief.type = "T";
+        thief.type = "Thief";
         adventurers.add(thief);
     }
 
