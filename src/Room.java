@@ -46,6 +46,9 @@ public class Room {
     public void removeCreature(Creature creature) {
         creatures.remove(creature);
     }
+    /**
+     * 
+     */
     public void findAdjacentRooms() {
 
         if(y != 0) { // if it's a room in the 4 floors below ground:

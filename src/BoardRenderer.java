@@ -20,7 +20,12 @@ public class BoardRenderer {
         System.out.println("RotLA Turn " + turnsTaken + ":");
         // render board
         for(Room room: rooms) {
-            System.out.println(room.id + ": " + "- : -");
+            System.out.printf(room.id + ": " + "- : -");
+            
+            //System.out.println(room.id.charAt(4));
+            if(room.id.charAt(4) == '2'  ) {  System.out.println("");}
+            
+            
         }
         // list adventurers stats
         for(Adventurer adventurer: adventurers) {
